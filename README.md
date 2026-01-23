@@ -1,4 +1,4 @@
-**IntamixX is a 3-band (high/mid/low) 2-input / 6 output crossover filter available in LV2 and VST3 formats.  It is suitable for integration into audio racks for live sound crossovers, multiband processing and DAWs.
+#IntamixX is a 3-band (high/mid/low) 2-input / 6 output crossover filter available in LV2 and VST3 formats.  It is suitable for integration into audio racks for live sound crossovers, multiband processing and DAWs.
 This patch implements the two-frequency, 3-pole Butterworth crossover / filter network butterkreuz3~ from AudioLab that is 3rd-order (18 dB/octave) Butterworth.
 
 All filters are 3rd-order (18 dB/octave) Butterworth, providing:
@@ -17,7 +17,7 @@ Phase-coherent band splitting
 Modular DSP building blocks
 
 Made with Pure Data and Camomile
-
+```
                      ┌───────────────┐
                      │  frequency-1  │
                      └───────┬───────┘
@@ -38,7 +38,7 @@ Made with Pure Data and Camomile
      ┌─────▼─────┐     ┌─────▼─────┐     ┌─────▼─────┐
      │  LOW OUT  │     │  MID OUT  │     │ HIGH OUT  │
      └───────────┘     └───────────┘     └───────────┘
-
+```
      
      
 LOW  → subwoofer
