@@ -1,0 +1,15 @@
+program short;
+program medium;
+program long;
+iolayout 2 6;
+code zWrt;
+type effect;
+image Intamixx.png;
+description Infos.txt;
+manufacturer Matt Singh;
+compatibility 1.0.7;
+param -name Filter XoverFreq1 -label Hz -min 0 -max 8000 -default 500;
+param -name Filter XoverFreq2 -label Hz -min 0 -max 8000 -default 1000;
+param -name Filter LPFVolume -label dB -min 0 -max 100 -default 0;
+param -name Filter BPFVolume -label dB -min 0 -max 100 -default 0;
+param -name Filter HPFVolume -label dB -min 0 -max 100 -default 0;
