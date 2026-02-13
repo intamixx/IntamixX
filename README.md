@@ -1,13 +1,11 @@
 # IntamixX
 
-![alt text](https://github.com/intamixx/IntamixX/blob/main/IntamixX-screenshot.png?raw=true)
-
 **IntamixX is a 3-band (high/mid/low) 2-input / 6 output crossover filter available in LV2 and VST3 formats.  It is suitable for integration into audio racks for live sound crossovers, multiband processing and DAWs.**
+
+![alt text](https://github.com/intamixx/IntamixX/blob/main/IntamixX-screenshot.png?raw=true)
 
 This patch implements the two-frequency, 3-pole Butterworth crossover / filter network butterkreuz3~ from AudioLab that is 3rd-order (18 dB/octave) Butterworth.
 It provides gain sliders / switches after each outlet to act as a 3-band isolator EQ.
-
-![alt text](https://github.com/intamixx/IntamixX/blob/main/IntamixX-logo.png?raw=true)
 
 All filters are 3rd-order (18 dB/octave) Butterworth, providing:
 - maximally flat magnitude response in the passband
@@ -51,3 +49,5 @@ Crossover details
 LOW  → subwoofer
 MID  → midrange
 HIGH → tweeter
+
+![alt text](https://github.com/intamixx/IntamixX/blob/main/IntamixX-logo.png?raw=true)
